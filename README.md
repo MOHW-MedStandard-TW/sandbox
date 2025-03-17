@@ -1,3 +1,21 @@
+# Set Up
+
+### 安裝套件
+```bash
+docker compose run app npm install
+```
+
+### 啟動
+```bash
+docker compose up -d
+```
+
+### 看log
+```bash
+docker compose logs -f
+```
+開啟網頁 http://localhost:8080
+
 # CDS Hooks Sandbox
 
 The CDS Hooks Sandbox (coined here as "Sandbox") is a tool that allows users to simulate the workflow of the [CDS Hooks](http://cds-hooks.org/) standard. It acts as a sort of "mock"-EHR that can be used as a demonstration tool for showing how CDS Hooks would work with an EHR system, as well as a testing tool to try out different CDS Services to ensure compatibility with the spec. This application is built using React and Redux.
