@@ -1,4 +1,10 @@
+> **Note:** Modifications have been made in compliance with the Apache License Version 2.0.
+
 # Set Up
+
+## Project Background
+
+This project was initiated because the current online version of the Sandbox limits patient selection to only 20 patients that it queries. To address this limitation, an older version of the Sandbox is being used.
 
 ### 安裝套件
 ```bash
